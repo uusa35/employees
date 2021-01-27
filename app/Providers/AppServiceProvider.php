@@ -32,13 +32,13 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        View::share('certificates', Certificate::all());
-        View::share('positions', Position::all());
-        View::share('employeeDegrees', EmployeeDegree::all());
-        View::share('children', Children::all());
-        View::share('socialStatus', SocialStatus::all());
-        View::share('titles', Title::all());
-        View::share('transportations', Transportation::all());
-        View::share('universityServices', UniversityService::all());
+//        View::share('certificates', Certificate::all());
+//        View::share('positions', Position::all());
+//        View::share('employeeDegrees', EmployeeDegree::all());
+//        View::share('children', Children::all());
+//        View::share('socialStatus', SocialStatus::all());
+//        View::share('titles', Title::all());
+//        View::share('transportations', Transportation::all());
+//        View::share('universityServices', UniversityService::all());
     }
 }
