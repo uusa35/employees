@@ -134,6 +134,7 @@
       <change afterPath="$PROJECT_DIR$/../payroll/assets/images/pin_old.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../payroll/constants.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../payroll/react-native.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../payroll/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/../payroll/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../payroll/android/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../payroll/android/app/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../payroll/android/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../payroll/android/app/src/main/AndroidManifest.xml" afterDir="false" />
@@ -193,7 +194,7 @@
         <entry file="file://$PROJECT_DIR$/app/Providers/AppServiceProvider.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="738">
-              <caret line="41" column="68" selection-start-line="41" selection-start-column="68" selection-end-line="41" selection-end-column="68" />
+              <caret line="41" column="70" lean-forward="true" selection-start-line="34" selection-end-line="41" selection-end-column="70" />
               <folding>
                 <element signature="e#33#60#0#PHP" expanded="true" />
               </folding>
@@ -560,12 +561,12 @@
       <workItem from="1611726490226" duration="8537000" />
       <workItem from="1611736759876" duration="3075000" />
       <workItem from="1611740366192" duration="5634000" />
-      <workItem from="1611747873319" duration="131000" />
+      <workItem from="1611747873319" duration="251000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40297000" />
+    <option name="totallyTimeSpent" value="40417000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1920" height="1121" extended-state="6" />
@@ -908,7 +909,7 @@
     <entry file="file://$PROJECT_DIR$/app/Providers/AppServiceProvider.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="738">
-          <caret line="41" column="68" selection-start-line="41" selection-start-column="68" selection-end-line="41" selection-end-column="68" />
+          <caret line="41" column="70" lean-forward="true" selection-start-line="34" selection-end-line="41" selection-end-column="70" />
           <folding>
             <element signature="e#33#60#0#PHP" expanded="true" />
           </folding>
