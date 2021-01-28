@@ -425,7 +425,7 @@
             </p>
             <hr>
             <p class="dark:text-white text-center">
-                للدخول كأدمن (مدير الموقع)
+                للدخول للموقع (لوحة التحكم) كأدمن (مدير الموقع)
                 <br>
                 username : {{ $admin->email }} </br>
                 password : {{ 'password'  }}
