@@ -418,7 +418,7 @@
                 PayRoll Employees System
             </h1>
             <p class="dark:text-white text-center">
-                يمكن الدخول عن طريق البيانات التالية كمستخدم عادي
+                يمكن الدخول للموقع عن طريق البيانات التالية كمستخدم عادي
                 <br>
                 username : {{ $element->email }} </br>
                 password : {{ 'password'  }}

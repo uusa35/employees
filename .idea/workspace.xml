@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a1b0e14e-4ed3-49e7-94b5-7c0baf856d41" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/app-release.apk" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../payroll/ElementRow.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../payroll/android/app/src/main/assets/fonts/AR-Almarai-Font.ttf" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../payroll/android/app/src/main/assets/fonts/AR-BBC-Regular.ttf" afterDir="false" />
@@ -135,7 +134,6 @@
       <change afterPath="$PROJECT_DIR$/../payroll/assets/images/pin_old.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../payroll/constants.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../payroll/react-native.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../payroll/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/../payroll/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../payroll/android/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../payroll/android/app/build.gradle" afterDir="false" />
@@ -216,9 +214,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="769">
-              <caret line="441" column="98" selection-start-line="441" selection-start-column="98" selection-end-line="441" selection-end-column="98" />
+            <state relative-caret-position="643">
+              <caret line="434" column="41" lean-forward="true" selection-start-line="434" selection-start-column="41" selection-end-line="434" selection-end-column="41" />
               <folding>
+                <element signature="n#style#0;n#div#2;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#0;n#div#2;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#a#0;n#div#2;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -621,12 +620,12 @@
       <workItem from="1611736759876" duration="3075000" />
       <workItem from="1611740366192" duration="5634000" />
       <workItem from="1611747873319" duration="3783000" />
-      <workItem from="1611813233137" duration="324000" />
+      <workItem from="1611813233137" duration="440000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44273000" />
+    <option name="totallyTimeSpent" value="44389000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1920" height="1121" extended-state="6" />
@@ -982,9 +981,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="769">
-          <caret line="441" column="98" selection-start-line="441" selection-start-column="98" selection-end-line="441" selection-end-column="98" />
+        <state relative-caret-position="643">
+          <caret line="434" column="41" lean-forward="true" selection-start-line="434" selection-start-column="41" selection-end-line="434" selection-end-column="41" />
           <folding>
+            <element signature="n#style#0;n#div#2;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#div#2;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#a#0;n#div#2;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
