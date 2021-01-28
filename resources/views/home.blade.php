@@ -43,7 +43,28 @@
                             </div>
 
                         @else
-                            {{ __('You are logged in!') }}
+                                <table class="table table-striped">
+                                    <thead>
+                                    <tr>
+                                        <th scope="col">id</th>
+                                        <th scope="col">Name</th>
+                                        <th scope="col">Employee No</th>
+                                        <th scope="col">Master Card Id</th>
+                                        <th scope="col">Net Salary <br><smal style="font-size: x-small; color : darkred; text-align: center">بآلاف الدنانير العراقي</smal></th>
+                                        <th scope="col">Action</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <th scope="row">{{ $user->id }}</th>
+                                            <td>{{ $user->name }}</td>
+                                            <td>{{ $user->employee_no }}</td>
+                                            <td>{{ $user->card_id }}</td>
+                                            <td>{{ number_format($user->netSalary) }}</td>
+                                            <td><a href="#" class="disabled btn btn-outline-dark btn-sm">Edit</a></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
                         @endif
                     </div>
                 </div>

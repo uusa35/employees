@@ -24,7 +24,8 @@ class HomeController extends Controller
      */
     public function index()
     {
-        $elements = User::paginate(50);
-        return view('home', compact('elements'));
+        $elements = User::with('position', 'title', 'social_status', 'certificate', 'children', 'salaries.employee_intervention', 'transportation')->paginate(50);
+        $user = User::whereId(auth()->id())->with('position', 'title', 'social_status', 'certificate', 'children', 'salaries.employee_intervention', 'transportation')->first();
+        return view('home', compact('elements','user'));
     }
 }
