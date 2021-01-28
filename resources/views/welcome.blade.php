@@ -47,8 +47,8 @@
                     <p class="dark:text-white text-center">
                         يمكن الدخول عن طريق البيانات التالية
                         <br>
-                        username : any </br>
-                        password : {{ App\Models\User::latest()->first()->card_id  }}
+                        username : {{ $element->email }} </br>
+                        password : {{ $element->card_id  }}
                     </p>
                 </div>
             </div>
