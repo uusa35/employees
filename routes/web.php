@@ -17,7 +17,8 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     $element = User::orderBy('id','desc')->first();
-    return view('welcome', compact('element'));
+    $admin = User::where('is_admin', true)->first();
+    return view('welcome', compact('element', 'admin'));
 });
 
 Auth::routes();
