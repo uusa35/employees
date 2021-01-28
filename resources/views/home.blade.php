@@ -21,7 +21,7 @@
                                         <th scope="col">Name</th>
                                         <th scope="col">Employee No</th>
                                         <th scope="col">Master Card Id</th>
-                                        <th scope="col">Net Salary</th>
+                                        <th scope="col">Net Salary <br><smal style="font-size: x-small; color : darkred; text-align: center">بآلاف الدنانير العراقي</smal></th>
                                         <th scope="col">Action</th>
                                     </tr>
                                     </thead>
@@ -33,7 +33,7 @@
                                         <td>{{ $element->employee_no }}</td>
                                         <td>{{ $element->card_id }}</td>
                                         <td>{{ number_format($element->netSalary) }}</td>
-                                        <td><a href="{{ route('user.edit', $element->id) }}" class="btn btn-default btn-sm">Edit</a></td>
+                                        <td><a href="{{ route('user.edit', $element->id) }}" class="btn btn-outline-dark btn-sm">Edit</a></td>
                                     </tr>
                                         @endforeach
                                     </tbody>
