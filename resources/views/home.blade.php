@@ -5,7 +5,7 @@
         <div class="row justify-content-center">
             <div class="col-md-12">
                 <div class="card">
-                    <div class="card-header">قائمة رواتب الموظفين</div>
+                    <div class="card-header text-center text-lg-center">قائمة رواتب الموظفين</div>
 
                     <div class="card-body">
                         @if (session('status'))
