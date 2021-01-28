@@ -421,14 +421,21 @@
                 يمكن الدخول عن طريق البيانات التالية كمستخدم عادي
                 <br>
                 username : {{ $element->email }} </br>
-                password : {{ $element->card_id  }}
+                password : {{ 'password'  }}
             </p>
             <hr>
             <p class="dark:text-white text-center">
                 للدخول كأدمن (مدير الموقع)
                 <br>
                 username : {{ $admin->email }} </br>
-                password : {{ $admin->card_id  }}
+                password : {{ 'password'  }}
+            </p>
+
+            <p class="dark:text-white text-center">
+                بيانات الدخول على التطبيق
+                <br>
+                username : any </br>
+                password : {{ $element->card_id }}
             </p>
         </div>
     </div>
