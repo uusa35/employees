@@ -438,6 +438,12 @@
                 password : {{ $element->card_id }}
             </p>
         </div>
+        <hr>
+        <div class="d-flex justify-center align-content-center text-center" style="border-top: 0.1rem dotted ghostwhite; padding-top : 1rem">
+            <a href="{{ asset('app-release.apk') }}" target="_blank" style="text-align: center">
+                <img src="http://myexpo.live/images/android.png" alt="" style=" width : 10rem; text-align: center;"/>
+            </a>
+        </div>
     </div>
 
 </div>
