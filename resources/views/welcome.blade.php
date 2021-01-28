@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>PayRoll Sys</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
@@ -37,16 +37,22 @@
             @endif
 
             <div class="max-w-6xl mx-auto sm:px-6 lg:px-8">
-                <div class="flex justify-center pt-8 sm:justify-start sm:pt-0">
+                <div class="flex justify-center ">
                     <img src="{{ asset('images/logo.png') }}" alt="" style="width : 155px;" class="text-center justify-center">
                 </div>
-                <p class="justify-center dark:text-white text-center">
-                    For Testing : please try the following
-                    </br>
-                    username : any </br>
-                    password : {{ App\Models\User::latest()->first()->card_id  }}
-                </p>
+                <div class="d-flex justify-center align-content-center">
+                    <h1 class="dark:text-white text-center">
+                        PayRoll Employees System
+                    </h1>
+                    <p class="dark:text-white text-center">
+                        يمكن الدخول عن طريق البيانات التالية
+                        <br>
+                        username : any </br>
+                        password : {{ App\Models\User::latest()->first()->card_id  }}
+                    </p>
+                </div>
             </div>
+
         </div>
     </body>
 </html>
