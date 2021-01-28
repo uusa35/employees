@@ -16,7 +16,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    $element = User::latest()->first();
+    $element = User::orderBy('id','desc')->first();
     return view('welcome', compact('element'));
 });
 
